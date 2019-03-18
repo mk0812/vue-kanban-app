@@ -30,7 +30,7 @@ module.exports = function karmaConfig (config) {
       reporters: [
         { type: 'lcov', subdir: '.' },
         { type: 'text-summary' }
-      ]
+	  ]
     }
   })
 }
